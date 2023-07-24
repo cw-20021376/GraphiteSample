@@ -14,6 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.red)
             Text("Hello, Graphite!")
+            
+            Spacer()
+            Text("What is Graphite?")
+                .font(.title)
+                .fontWeight(.bold)
+            Spacer()
         }
         .padding()
     }
